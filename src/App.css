@@ -1,0 +1,143 @@
+.App{
+    background-color: #fbf9f9;
+    height: 100%;
+}
+.App a {
+    color: #E94E4F;
+    font-weight: bold;
+}
+.App a:hover {
+    color: #FFA910;
+    font-weight: bold;
+}
+.article a:hover{
+    text-decoration: none;
+}
+.article ul{
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: -1px 0px 11px -2px rgba(163,161,163,1);
+    margin-bottom: 50px;
+    padding: 30px 10px 30px 20px
+
+}
+.article ul:hover{
+    border: 2px solid #E94E4F;
+}
+.loading{
+    margin-left: 23vw;
+}
+.singlearticle{
+    margin-top: 20vh;
+    height:100vh;
+}
+.singlearticle ul{
+    list-style: none;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content{
+    color: #BEBEBE;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.login p{
+    max-width: 400px;
+    text-align: center;
+}
+.App form input{
+    margin-top: 3vh;
+}
+.App form button{
+    margin-top: 3vh;
+    margin-left: 7vw;
+}
+.login .link{
+    margin-top: 7vh;
+    display: flex;
+}
+.updatepassword {
+    margin-left: 20vw;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.updatepassword form{
+    margin-left: 29vw;
+}
+.updateuser{
+    padding-bottom: 10%; 
+    padding-top: 15%;
+}
+.updateuser form{
+    margin-left: 29vw;
+}
+.createuser{
+    padding-bottom: 10%; 
+    padding-top: 10%;
+}
+.createuser form{
+    margin-left: 29vw;
+}
+.createarticle{
+    padding-bottom: 20%; 
+    padding-top: 10%;
+}
+.createarticle form{
+    margin-left: 29vw;
+}
+.user {
+    padding-top: 10%;
+    padding-bottom: 25%;
+    
+}
+.user a {
+    border: 1px solid #E94E4F;
+    border-radius: 5px;
+    padding: 5px;
+}
+.user .profile{
+    display: flex;
+    align-items: center;
+}
+.user .profile span{
+    font-size: 13px;
+    margin-left: 20px;
+}
+.user img{
+    margin-left: 40vw;
+}
+.user ul li .picture{
+    width: 8vw;
+    height: 15vh;
+    border-radius: 50%;
+}
+.container ul{
+   list-style: none;
+}
+.container input{
+    width: 20vw;
+
+}
+.App button{
+    margin-top: 5vh;
+    background-color: #E94E4F;
+    color:#fff;
+    font-weight: bold;
+
+}
+.App button:hover{
+    background-color: #FFA910;
+    
+
+}
